@@ -1,0 +1,15 @@
+/*
+selecteur(s) {
+propriété:valeur;
+}
+*/
+video{max-width: 100%;
+    display: grid;}
+.row {   display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin: 24px;}
+::selection {
+    background: rgba(174, 129, 245, 0.192);
+    border-radius: 50%;
+    color: rgba(116, 22, 145, 0.452);}
